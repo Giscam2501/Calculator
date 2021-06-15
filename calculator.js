@@ -29,7 +29,7 @@ function numero(xx) {
                 
                else {
                    pantalla.innerHTML+=xx;
-                   x+=xx
+                   x+=(x*10)+x
                }
             }
             xi=0 
