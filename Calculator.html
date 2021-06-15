@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="calculadora.js"></script>
+	<link rel="stylesheet" href="calculadora.css">
+	<title></title>
+</head>
+<body>
+	<div class="calculadora"
+<form action="#" name="calculadora" id="calculadora">
+<p id="textoPantalla">0</p>
+<p>
+<input type="button" class="grey" value="AC" onclick="borradoTotal()"/>
+<input type="button" class="grey" value="+/-"  onclick="opuest()" />
+<input type="button" class="grey" value="%" onclick="porcent()" />
+<input type="button" class="orange" value="/" onclick="operar('/')" />
+</p>
+<p>
+<input type="button" class="dark" value="7" onclick="numero(7)" />
+<input type="button" class="dark" value="8" onclick="numero(8)" />
+<input type="button" class="dark" value="9" onclick="numero(9)" />
+<input type="button" class="orange" value="*" onclick="operar('*')" />
+</p>
+<p>
+<input type="button" class="dark" value="4" onclick="numero(4)"/>
+<input type="button" class="dark" value="5" onclick="numero(5)" />
+<input type="button" class="dark" value="6" onclick="numero(6)" />
+<input type="button" class="orange" value="-" onclick="operar('-')" />
+</p>
+<p>
+<input type="button" class="dark" value="1" onclick="numero(1)" />
+<input type="button" class="dark" value="2" onclick="numero(2)" />
+<input type="button" class="dark" value="3" onclick="numero(3)" />
+<input type="button" class="orange" value="+" onclick="operar('+')" />
+</p>
+<p>
+<input type="button" class="largo" value="0" onclick="numero(0)" />
+<input type="button" class="dark" value="." onclick="numero('.')" />
+<input type="button" class="orange" value="=" onclick="igualar()" />
+</p>
+</form>
+</div>
+	
+</body>
+</html>
